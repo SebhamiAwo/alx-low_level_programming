@@ -2,7 +2,7 @@
 
 /**
  * print_sign -  prints the sign of a number
- * @n - the number to be checked
+ * @n: the number to be checked
  * Return: 1 if greater than zero, 0 if equal to zero or -1 if less than one
  */
 
@@ -12,7 +12,7 @@ int print_sign(int n)
 
 	if (n > 0)
 	{
-	_putchar(43) ;
+	_putchar(43);
 	return (1);
 	}
 	else if (n < 0)
